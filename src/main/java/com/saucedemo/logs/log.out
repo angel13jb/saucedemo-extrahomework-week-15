@@ -1,0 +1,14 @@
+2022-05-20 11:05:385 INFO  ManageDriver :31 - Launching Chrome Browser
+2022-05-20 11:05:765 INFO  HomePage :29 - Enter username :standard_user
+2022-05-20 11:05:903 INFO  HomePage :33 - Enter password :secret_sauce
+2022-05-20 11:05:133 INFO  HomePage :37 - Clicking on login button :[[ChromeDriver: chrome on WINDOWS (9295e5336486ffa68fbb138959310d62)] -> xpath: //input[@id='login-button']]
+2022-05-20 11:05:446 INFO  ProductPage :33 - Select from dropdown :Price (high to low)
+2022-05-20 11:05:767 INFO  ProductPage :38 - select cheapest and costliest products :
+2022-05-20 11:05:918 INFO  ProductPage :42 - Clicking On shopping cart link :[[ChromeDriver: chrome on WINDOWS (9295e5336486ffa68fbb138959310d62)] -> xpath: //a[@class='shopping_cart_link']]
+2022-05-20 11:05:58 INFO  ProductPage :46 - Clicking on checkout button :[[ChromeDriver: chrome on WINDOWS (9295e5336486ffa68fbb138959310d62)] -> xpath: //button[@id='checkout']]
+2022-05-20 11:05:245 INFO  CheckOutPage :37 - Enter firstname :rosy
+2022-05-20 11:05:391 INFO  CheckOutPage :41 - Enter lastname :smith
+2022-05-20 11:05:532 INFO  CheckOutPage :45 - Enter zipcode :s13 1td
+2022-05-20 11:05:654 INFO  CheckOutPage :49 - Clicking on continuebutton :[[ChromeDriver: chrome on WINDOWS (9295e5336486ffa68fbb138959310d62)] -> xpath: //input[@id='continue']]
+2022-05-20 11:05:759 INFO  CheckOutPage :53 - Clicking on finishbutton :[[ChromeDriver: chrome on WINDOWS (9295e5336486ffa68fbb138959310d62)] -> xpath: //button[@id='finish']]
+2022-05-20 11:05:795 INFO  CheckOutPage :56 - Get thankyou text :[[ChromeDriver: chrome on WINDOWS (9295e5336486ffa68fbb138959310d62)] -> xpath: //h2[contains(text(),'THANK YOU FOR YOUR ORDER')]]
